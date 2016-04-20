@@ -44,6 +44,7 @@ RSpec.describe "Stack" do
 
   describe "#add_chips" do
     it "accepts an array of chips and stores them in the #chips attribute" do
+      skip
       stack = Stack.new
       stack.add_chips(seed_chips)
       assert_equal 2, stack.chips[:black].length
